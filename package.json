@@ -1,0 +1,28 @@
+{
+  "name": "studyplan",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "week1:1": "tsx src/week1/01-hello-llm.ts",
+    "week1:2": "tsx src/week1/02-parameter-playground.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "anthropic": "^0.0.0",
+    "dotenv": "^17.2.4",
+    "openai": "^6.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
