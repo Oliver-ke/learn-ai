@@ -9,7 +9,8 @@
     "week1:2": "tsx src/week1/02-parameter-playground.ts",
     "week1:3": "tsx src/week1/03-streaming-chat.ts",
     "week1:3b": "tsx src/week1/03b-retry-logic.ts",
-    "week1:4": "tsx src/week1/04-token-management.ts"
+    "week1:4": "tsx src/week1/04-token-management.ts",
+    "week1:5": "tsx src/week1/05-context-manager.ts"
   },
   "keywords": [],
   "author": "",

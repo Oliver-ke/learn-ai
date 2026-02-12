@@ -1,3 +1,4 @@
+[todo]: move study note on model parameter such as temperature, top-p, frequency penalty and presence penalty here.
 
 ### Rules of thumb and examples for prompting
 
@@ -66,3 +67,35 @@ join: "hi!"
 Tokens are the currency of LLM's
 
 [Source](https://www.youtube.com/watch?v=nKSk_TiR8YA)
+
+tokenizer - tool that convert words into token
+
+### Context Windows:
+
+Context windows represents an AI models "Working memory"
+ie how large of an information the AI can consider at once.
+
+This includes prompt, the conversation history and generated response
+e.g GPT-3.5 (16K), GPT-4 Turbo (128k), Claude (200k)
+
+More context window, more ability to handle large input
+
+
+### Strategies for long conversations
+
+Periodic Summarization: Periodically ask the LLM to summarize the conversation, then reset or restart the chat with this summary to free up the context window.
+
+Context Compaction/Trimming: Remove older messages or use "SlimContext" techniques to condense history while retaining essential facts, preventing the model from losing focus. Or consider the sliding window approach, to only keep the most recent messages
+
+Explicit Prompting: Use clear instructions and constraints (e.g., "Keep your response under 200 words") to maintain focus and minimize misinterpretation in lengthy discussions.
+
+Strategic Reinforcement: Reiterate the original goal or constraints at intervals to ensure the model stays on track, as attention tends to drift in long conversations.
+
+Structured Data Input: For very long interactions, place long-form data at the top of the prompt, using XML tags to structure content and metadata, which helps the model find information.
+```
+XML Tags for Delineation: Using XML-style tags (<context>, <data>, <instruction>) is highly effective for structuring prompts. It provides clear boundaries that help the model separate instructions from data, reducing "contaminating" context
+```
+
+Relevant Attention (SRA): Use specific prompt templates that force the model to pay attention to strategy, or use a "cognitive context layer" that only injects facts relevant to the current query rather than the entire chat history.
+
+
