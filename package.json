@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "week1:1": "tsx src/week1/01-hello-llm.ts",
-    "week1:2": "tsx src/week1/02-parameter-playground.ts"
+    "week1:2": "tsx src/week1/02-parameter-playground.ts",
+    "week1:3": "tsx src/week1/03-streaming-chat.ts",
+    "week1:3b": "tsx src/week1/03b-retry-logic.ts",
+    "week1:4": "tsx src/week1/04-token-management.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +19,8 @@
     "@anthropic-ai/sdk": "^0.74.0",
     "anthropic": "^0.0.0",
     "dotenv": "^17.2.4",
-    "openai": "^6.19.0"
+    "openai": "^6.19.0",
+    "tiktoken": "^1.0.22"
   },
   "devDependencies": {
     "@types/node": "^25.2.2",

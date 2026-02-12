@@ -2,3 +2,6 @@
 https://www.gradio.app/guides/quickstart
 
 [LangSmith] - A tool to track and visualize LLM interactions
+
+[Tokenizer] - Understand ai token count
+https://platform.openai.com/tokenizer
