@@ -1,0 +1,25 @@
+{
+  "id": "1771140471280",
+  "title": "name dog",
+  "messages": [
+    {
+      "role": "system",
+      "content": "as an english student",
+      "timestamp": "2026-02-15T07:27:51.280Z"
+    },
+    {
+      "role": "user",
+      "content": "come up with names for my dog",
+      "timestamp": "2026-02-15T07:28:04.379Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are a few name suggestions for your dog:\n\n1. Luna\n2. Teddy\n3. Daisy\n4. Archie\n5. Bella\n6. Max\n7. Coco\n8. Buddy\n9. Rosie\n10. Milo\n\nI hope you find the perfect name for your furry friend!",
+      "timestamp": "2026-02-15T07:28:05.691Z"
+    }
+  ],
+  "createdAt": "2026-02-15T07:27:51.280Z",
+  "updatedAt": "2026-02-15T07:28:05.700Z",
+  "totalTokens": 85,
+  "estimatedCost": 0.00017
+}

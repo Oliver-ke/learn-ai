@@ -80,6 +80,8 @@ e.g GPT-3.5 (16K), GPT-4 Turbo (128k), Claude (200k)
 
 More context window, more ability to handle large input
 
+context window = User input + System prompt + Document / Source Code + RAG + Model Output
+
 
 ### Strategies for long conversations
 
@@ -98,4 +100,8 @@ XML Tags for Delineation: Using XML-style tags (<context>, <data>, <instruction>
 
 Relevant Attention (SRA): Use specific prompt templates that force the model to pay attention to strategy, or use a "cognitive context layer" that only injects facts relevant to the current query rather than the entire chat history.
 
+### challenges of models with larger compute number
 
+1. Compute, as the token doubles, processing power increases 4 times
+2. Performance
+3. Safety, increases model possibility for jail breaking
