@@ -1,6 +1,6 @@
 # Learn AI — AI Orchestration Study Plan
 
-A hands-on, 8-week study curriculum for learning AI orchestration, covering LLM fundamentals, prompt engineering, RAG systems, agents, and production deployment. Built with TypeScript.
+A hands-on, 8-week study curriculum for learning AI orchestration, covering LLM fundamentals, prompt engineering, RAG systems, agents, ai agent orchestration and production deployment. Built with TypeScript.
 
 ## Structure
 
